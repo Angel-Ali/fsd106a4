@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
+    <title>My Super Calendar</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+    <!-- header -->
+    <main class="container-fluid"> 
+        <section class="section-list">
+            
+            <div>
+<h3>Task Manager</h3>
+<button  id="toggleForm" class="btn btn-secondary">Form</button>
+<button  id="clearTasks" class="btn btn-danger">Clear</button>
+</div>
+ <div class="pending-tasks">
+     <!-- render elements using js -->
+
+ </div>
+ <h3>your Completed tasks</h3>
+<div class="done-tasks">
+    <!-- here -->
+</div>
+        </section>
+
+
+
+        <!-- SECTION -->
+        <section class="section-form">
+            <div class="form">
+<h3 class="form-title">Create your own event</h3>
+                <div>
+                    <label class="form-label">Title</label>
+                    <input id="txtTitle" type="text" class="form-control">
+                </div>
+
+                <div>
+                    <label class="form-label">Important</label>
+                    <i id="iImportant" class="fas fa-star" aria-hidden="true"></i>
+                </div>
+
+               
+                <div>
+                    <label class="form-label">Due Date:</label>
+                    <input id="selDate" type="date" class="form-control">
+                </div>
+                
+                <div>
+                    <label class="form-label">Location:</label>
+                    <input id="txtLocation" type="text" class="form-control">
+                </div>
+            
+                
+                <div>
+                    <label class="form-label">Priority:</label>
+                        <select id="selPriority" class="form-select">
+                            <option value="1">Low</option>
+                            <option value="2">Medium</option>
+                            <option value="3">Important</option>
+                        </select>
+
+            </div>
+
+            <div>
+                <label class="form-label">Color</label>
+                <input id="selColor" type="color" class="form-control">
+            </div>
+
+<div>
+    <button type="button" id="btnSave" class="btn btn-dark">Save!</button>
+</div>
+        </section>
+
+
+    </main>
+
+
+    <!-- footer -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/task.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/test.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+html, body{
+    background-color: lightgray;
+}
+
+
+h1{
+    margin-left: .5rem;
+    color: #D61A1B;
+    
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.container-fluid{
+    margin-top: 1rem;
+    background-color: lightgrey;
+    display: flex;
+}
+
+.section-list{
+   flex: 3; 
+}
+
+.section-form{
+    flex: 2; 
+    background-color: rgba(185, 185, 185, 0.822);
+    border: 3px solid grey;
+    border-radius: 4px;
+   
+ }
+
+ .form-label{
+     color: black;
+    margin-left: .5rem;
+    font-size: 1.5rem;}
+
+ /* important star */
+ #iImportant{
+     font-size: 20px;
+     color: #D61A1B;
+     cursor: pointer;
+ }
+
+ #iImportant:hover{
+    transition-duration: 0.4s;
+    font-size: 25px;
+    color: #818181;
+
+  
+}
+
+#btnSave{
+    background-color: #D61A1B;
+    color: whitesmoke;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    margin-bottom: 1rem;
+}
+
+#btnSave:hover{
+    background-color: #8a8787;
+    color: whitesmoke;
+    transition-duration: 0.4s;
+}
+
+.pending-tasks{
+   margin-top: 5rem;
+
+  
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    padding: 15px;
+    background-color: lightgray;
+    border-radius: 6px;
+}
+
+.task i{
+    flex: 1
+    ;
+    font-size: 32px;
+}
+
+.myTask{
+display: flex;
+margin-top: 10px 10px;
+border: 2px solid black;
+border-radius: 12px;
+
+}
+
+.myTask i{
+    flex: 1;
+    
+}
+
+.myTask .info{
+flex: 4;
+    
+}
+
+.myTask label{
+flex: 2;
+    
+}
+
+.myTask button{
+flex: 1;
+border: none;
+border-radius: 12px;
+padding: 0;
+margin: 0;    
+}
